@@ -32,13 +32,15 @@ function Contact() {
   return (
     <div
       id="contact"
-      className=" bg-secondary space-y-20  px-20 py-20 flex items-center justify-between "
+      className=" bg-secondary space-y-20  px-20 py-16 md:flex md:items-center md:justify-between "
     >
-      <div className="space-y-10 w-full">
-        <h1 className="text-6xl  font-bold ">
+      <div className="space-y-5 md:space-y-10 w-full">
+        <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-black md:text-start text-center">
           I&rsquo;ve been waiting <br /> for you{" "}
         </h1>
-        <p className="">I went to hear from you, Let me know how i can help</p>
+        <p className="md:text-start text-center text-base text-black">
+          I went to hear from you, Let me know how i can help
+        </p>
       </div>
       <div className="space-y-5  w-full ">
         <h1 className="text-center text-xl  ">Send me a message</h1>

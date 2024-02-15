@@ -1,10 +1,9 @@
 import { techIcons } from "../utils";
 function Tech() {
-  console.log(techIcons);
   return (
-    <div className="px-20 py-28  w-full  space-y-10 bg-secondary">
+    <div id="tech" className="px-20 py-36 w-full  space-y-10 bg-secondary">
       <h1 className="text-6xl font-bold text-background">Tech & Use</h1>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap items-center justify-center gap-8">
         {techIcons.map((item) => (
           <div
             key={item.name}
