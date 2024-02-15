@@ -96,8 +96,8 @@ function Navbar() {
                     duration={500}
                     className={
                       active === link.name
-                        ? "text-text duration-150 text-2xl select-none font-normal cursor-pointer capitalize"
-                        : "text-gray-500 duration-150 text-2xl select-none font-normal cursor-pointer capitalize"
+                        ? "text-text duration-150 text-4xl select-none font-normal cursor-pointer capitalize"
+                        : "text-gray-500 duration-150 text-4xl select-none font-normal cursor-pointer capitalize"
                     }
                   >
                     {link.name}

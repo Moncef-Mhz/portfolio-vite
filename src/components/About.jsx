@@ -3,7 +3,7 @@ function About() {
   return (
     <div
       id="about"
-      className=" bg-background space-y-5 md:grid md:grid-cols-4 w-full px-20  py-36"
+      className=" bg-background space-y-5 md:grid md:grid-cols-4 w-full md:px-20 px-10  py-36"
     >
       <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-text">
         About

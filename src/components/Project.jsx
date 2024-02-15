@@ -3,7 +3,10 @@ import { projects } from "../utils";
 
 function Project() {
   return (
-    <div id="work" className="bg-background space-y-10  px-20 py-20 md:py-28">
+    <div
+      id="work"
+      className="bg-background space-y-10  md:px-20 px-10 py-20 md:py-28"
+    >
       <div className="flex items-center text-white gap-5">
         <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-text ">
           Projects

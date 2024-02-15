@@ -1,8 +1,13 @@
 import { techIcons } from "../utils";
 function Tech() {
   return (
-    <div id="tech" className="px-20 py-36 w-full  space-y-10 bg-secondary">
-      <h1 className="text-6xl font-bold text-background">Tech & Use</h1>
+    <div
+      id="tech"
+      className="md:px-20 px-10 py-36 w-full  space-y-10 bg-secondary"
+    >
+      <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-background">
+        Tech & Use
+      </h1>
       <div className="flex flex-wrap items-center justify-center gap-8">
         {techIcons.map((item) => (
           <div

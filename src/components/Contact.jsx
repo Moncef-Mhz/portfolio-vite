@@ -32,7 +32,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className=" bg-secondary space-y-20  px-20 py-16 md:flex md:items-center md:justify-between "
+      className=" bg-secondary space-y-20 px-10 md:px-20 py-16 md:flex md:items-center md:justify-between "
     >
       <div className="space-y-5 md:space-y-10 w-full">
         <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-black md:text-start text-center">
