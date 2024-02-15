@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  scrollbar-width: 0;
+  display: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  @apply bg-accent;
+}
+li {
+  @apply text-white text-base font-normal cursor-pointer capitalize;
+}
+li:hover {
+  @apply text-gray-300 border-b border-primary  duration-150;
+}
+input,
+textarea {
+  @apply border border-background px-4 py-2 rounded-md outline-none focus:border-accent border-b-4;
+}
+.gradient1 {
+  @apply bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text;
+}
+.gradient2 {
+  @apply bg-gradient-to-l from-primary to-accent text-transparent bg-clip-text;
+}
+.text-width {
+  @apply xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl;
+}
