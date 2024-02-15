@@ -11,7 +11,7 @@ export default {
         accent: "#3DBCF7",
       },
       backgroundImage: {
-        pattern: "url(./src/assets/pattern.png)",
+        pattern: "url(/pattern.png)",
       },
     },
   },

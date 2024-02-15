@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div
       id="home"
-      className="relative h-screen flex items-center justify-center flex-col space-y-10 w-auto"
+      className="relative h-screen  flex items-center justify-center flex-col space-y-10 w-auto"
     >
       <div className="text-center w-[90%]">
         <h1 className="text-width  font-bold text-text resize ">
