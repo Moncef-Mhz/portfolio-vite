@@ -26,7 +26,14 @@ function Contact() {
     e.preventDefault();
     if (!details.email || !details.message || !details.name || !details.subject)
       return;
+
     SendEmail(details);
+    setDetails({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
   };
 
   return (
